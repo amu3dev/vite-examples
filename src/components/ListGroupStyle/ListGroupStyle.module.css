@@ -1,0 +1,36 @@
+.list-group {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px solid #c06767;
+  border-radius: 4px;
+  font: 1em sans-serif;
+  color: #c06767;
+  background-color: #f5f5f5;
+}
+.list-group-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.list-group-item {
+  padding: 10px 16px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font: 1em sans-serif;
+  color: #c06767;
+  background-color: #f5f5f5;
+}
+.active {
+  color: #fff;
+  background-color: #c06767;
+  border-color: #c06767;
+}
+.list-group-item:hover {
+  color: #fff;
+  background-color: #dee0e9;
+  border-color: #f0e6e6;
+}
