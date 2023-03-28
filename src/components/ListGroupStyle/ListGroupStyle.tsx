@@ -1,3 +1,5 @@
+// This component is used to display a list of items and using Css Modules to style the component.
+
 import { MouseEvent, useState } from "react";
 import styles from "./ListGroupStyle.module.css"
 
